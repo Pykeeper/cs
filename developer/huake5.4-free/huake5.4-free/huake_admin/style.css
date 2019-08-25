@@ -1,0 +1,28 @@
+@charset "utf-8";
+body { min-width: 1200px;}
+/*登录*/
+#login_warp{}
+.login{color: #fff;}
+#content_main { background: #eee;}
+/*头部*/
+#header_main { background:#3E4B55; height:80px; line-height:80px; margin-bottom: 10px; }
+#header_main .left { font-size:30px; color:#FFF; }
+/*左边*/
+#side_bar { text-align: center;border-top:2px solid #fff;}
+#side_bar dt {  background: #3E4B55;  line-height: 32px; height: 32px; text-align: center; margin-bottom: 5px; font-size: 16px; color: #FFF;}
+#side_bar dd a {display: block; background: #EEEEEE; line-height: 30px; height: 30px; text-align: center; margin-bottom: 4px;color: #3E4B55;}
+#side_bar dd a:hover { background: #FD772E; color: #fff; text-decoration: none;border-radius:0.5em;}
+#side_bar dd .current_navigation { background: #FD772E; color: #fff; text-decoration: none;border-radius:0.5em;}
+/*主体*/
+#content { overflow: hidden; width: 1200px; margin: 0 auto;}
+#left { float: left; width: 120px; padding: 10px; background: #FFF; }
+#right { padding: 10px; background: #fff; float: right; width: 1070px; }
+.content_h {background: #3E4B55; line-height: 36px; height: 36px; font-size: 16px; color: #FFF; padding: 0 20px;}
+.content_b {}
+.content_f {}
+ 
+/*底部*/
+#footer_main { background: #3E4B55; margin-top:10px; color: #fff;}
+#footer{padding: 10px 0;}
+#footer a{color: #fff;}
+ 

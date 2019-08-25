@@ -1,0 +1,46 @@
+/* reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, input, p,input{margin:0;padding:0}
+img{border:0}
+em, i{font-style:normal;font-weight:normal}
+ul, ol{list-style:none}
+h1, h2, h3, h4, h5{font-size:100%;font-weight:normal}
+body{font:14px/1.6 '\5b8b\4f53', "Microsoft YaHei", tahoma, sans-serif;font-family: 'Microsoft YaHei';color: #333;}
+img{margin: 0;vertical-align: middle;}
+a { text-decoration: none; cursor: pointer;color: #333;}
+a:hover{text-decoration: none;}
+html,body{margin: 0;padding: 0;position: relative;}
+*{box-sizing: border-box;}
+
+.clearfix{*zoom:1}
+.clearfix:before, .clearfix:after{display:table;content:"";line-height:0}
+.clearfix:after{clear:both}
+.fl{float: left;}
+.fr{float: right;}
+.tl{text-align: left;}
+.tr{text-align: right;}
+.tc{text-align: center;}
+.ib{display: inline-block;vertical-align: top;}
+
+.flex{
+    display: flex;
+    align-items:center;/*垂直居中*/
+    justify-content: center;/*水平居中*/
+}
+.flex-item{
+    flex: 1;
+}
+.flex-item2{
+    flex: 2;
+}
+.flex-item3{
+    flex: 2;
+}
+
+.center1200{width: 1200px;margin: 0 auto;}
+.w50{width: 50%;}
+.h20{height: 20%;}
+.h30{height: 30%;}
+.h40{height: 40%;}
+.h33{height: 33.3%;}
+.h100{height: 100%;}
+
