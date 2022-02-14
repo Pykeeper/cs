@@ -1,2 +1,0 @@
-# practice
-my practice example
